@@ -1,0 +1,527 @@
+
+    body, h1, h3, p, ul, li {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Navbar styles */
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(238, 1, 72);
+        color: #fff;
+        height: 90px;
+        padding: 0 20px;
+    }
+
+    .navbar-left {
+        display: flex;
+    }
+
+    .navbar-left img {
+        height: 65px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+    .navbar-side-name1 {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+   
+    .navbar-side-name2 {
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+
+    .navbar-center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 150px;
+    }
+
+    .navbar-center h1 {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .navbar-right {
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar-shopping-name {
+        font-size: 18px;
+        color: #fff;
+        font-weight: 500;
+        padding: 6px 8px;
+    }
+
+    .cart {
+        height: 20px;
+    }
+
+    /* List navbar styles */
+    .navbar-list {
+        background-color:rgb(238, 1, 72);
+        text-align: center;
+        border-top: 1px solid white;
+    }
+
+    .navbar-list ul {
+        list-style: none;
+        display: flex;
+        padding: 0px 30px;
+    }
+
+    .navbar-list li {
+        padding: 15px 25px;
+    }
+
+    .navbar-list a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 549;
+        font-size: 18px;
+    }
+
+    /* Mobile responsiveness */
+    @media screen and (max-width: 600px) {
+        .navbar {
+            flex-direction: column;
+            height: auto;
+        }
+
+        .navbar-left img {
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+
+        .navbar-center {
+            margin-right: 0;
+            margin-bottom: 10px;
+        }
+
+        .navbar-list {
+            display: none;
+        }
+
+        .navbar-menu-btn {
+            display: block;
+            cursor: pointer;
+            margin-right: 20px;
+        }
+
+        .navbar-menu-btn div {
+            width: 35px;
+            height: 5px;
+            background-color: #fff;
+            margin: 6px 0;
+        }
+
+        .navbar-menu {
+            display: none;
+        }
+
+        .navbar-menu.show {
+            display: block;
+        }
+
+        /* Show the mobile menu */
+        .navbar-list ul {
+            flex-direction: column;
+            display: none;
+        }
+
+        .navbar-menu-btn {
+            display: block;
+            cursor: pointer;
+            margin-right: 20px;
+        }
+
+        .navbar-menu-btn div {
+            width: 35px;
+            height: 5px;
+            background-color: #fff;
+            margin: 6px 0;
+        }
+
+        .navbar-menu {
+            display: none;
+        }
+
+        .navbar-menu.show {
+            display: block;
+        }
+    }
+/* ..............................................................sliding part .................... */
+.carousel-item img {
+        max-height: 600px; 
+        object-fit: cover;
+    }
+    .carousel-caption {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    @media (max-width: 767px) {
+        .carousel-caption {
+            top: unset;
+            transform: unset;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+        }
+    }
+    /* ........................................................................................ */
+    .Box{
+        background-color: #f1f4f0;
+        display: flex;
+    }
+    .texth1{
+        margin-top: 20px;
+        font-size:50px ;
+        color: rgb(238, 1, 72);
+    font-weight: 700;
+    text-align: center;
+
+    }
+    .texth3{
+        /* margin: 40px 0px; */
+    font-size: 25px;
+    line-height: 1.167;
+    letter-spacing: 0em;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    }
+    .textp{
+        font-size: 21px;
+    line-height: 1.8;
+    letter-spacing: 0em;
+    font-weight: 500;
+    text-align: center;
+    color: black;
+    }
+    .textpp{
+        font-size: 21px;
+    line-height: 1.8;
+    letter-spacing: 0em;
+    font-weight: 500;
+    text-align: center;
+    color: black;
+    text-align: right;
+    }
+
+    @media (max-width: 767px) {
+        .Box {
+           display: none;   
+        }
+    }
+    /* .............................................................................................. */
+
+    
+#श्रीपंतवाङमय{
+  background-color: rgb(255, 255, 255);
+    padding-top: 40px;
+
+}
+.श्रीपंतवाङमयh1{
+  margin: auto;
+  text-align: center;
+    color: rgb(238, 1, 72);
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 45px;
+}
+.श्रीपंतवाङमयp{
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 600;
+}
+.श्रीपंतवाङमयpp{
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 600;
+}
+.श्रीपंतवाङमयp{
+  margin: auto;
+  text-align: center;
+} 
+
+.video-container {
+  position: relative;
+  padding-bottom: 5%; 
+  overflow: hidden;
+
+}
+
+.बोधपर {
+  display: flex;
+  transition: transform 0.3s ease;
+  margin-left: 200px;
+  /* margin: auto; */
+}
+
+.बोधपर .मार्गदर्शन {
+  width: 300px;
+  height: 200px;
+  margin-right: 10px;
+}
+
+.बोधपर iframe {
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+
+}
+
+
+
+
+
+/* Mobile responsiveness */
+
+@media (max-width: 768px) {
+
+  .श्रीपंतवाङमयh1{
+    font-size: 25px;
+  }
+  .बोधपर {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin-left: 0px;
+
+  }
+
+  .बोधपर .मार्गदर्शन {
+    margin-right: 0; 
+    margin-bottom: 10px; 
+  }
+}
+
+/* .................................................................................................. */
+
+
+
+.श्रवण {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  background-image: url('https://media.istockphoto.com/id/1460007178/photo/library-books-on-table-and-background-for-studying-learning-and-research-in-education-school.webp?b=1&s=170667a&w=0&k=20&c=TRED57BZuROoCEP9kR85pW38PLz32onmM8106OoXeGQ=');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.मनन {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.मननh1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.मननp {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.मननbutton {
+  background-color: rgb(238, 1, 72);
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.मननbutton:hover {
+  background-color:rgb(238, 1, 72);
+}
+
+@media (max-width: 768px) {
+  .मननh1 {
+    font-size: 2rem;
+  }
+  
+  .मननp {
+    font-size: 1rem;
+  }
+  
+  .मननbutton {
+    font-size: 1rem;
+  }
+  .श्रवण{
+    height: 40vh;
+    background-image: 100%;
+  }
+}
+/* ..........................................................video2..................................................... */
+
+.उपक्रम {
+    display: flex;
+    margin-left: 200px;
+    color:rgb(238, 1, 72);
+
+
+}
+.उपक्रमh5{
+    font-weight: 600;
+    color: rgb(238, 1, 72);
+    font-size: 50px;
+    text-align: center;
+    padding-left: 80px;
+
+}
+
+@media (min-width: 768px) {
+    .उपक्रम {
+      gap: 50px;
+      
+    }
+
+    .उपक्रम h5 {
+      font-size: 18px;
+    }
+  }
+      
+
+ 
+    
+    /* .................................................................................................................. */
+
+    .आठवणींना{
+        background-color: #f1f4f0;
+        padding-top: 30px;
+    }
+    .carousel-inner img {
+    
+      width: 300px;
+      height: 250px;
+
+    } 
+     .carousel-inner{
+        width: 80%;
+        margin: auto;
+
+    }
+
+   .उजाळा{
+    margin-top: 50px;
+   }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-color: black;
+    }
+    .carousel-control-prev-icon:hover,
+    .carousel-control-next-icon:hover {
+      background-color: darkred;
+    } 
+    
+/* ............................footer................................................. */
+
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  justify-content: space-around;
+  background-color:rgb(238, 1, 72) ;
+  margin-top: 50px;
+}
+
+.footer-section h3{
+  margin-top: 20px;
+    color: white;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.235;
+    letter-spacing: 0.00735em;
+}
+
+.footer-section p{
+  margin-top: 20px;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+.footer-section1,.footer-section .footer-list {
+  flex: 1 0 100%;
+  max-width: 350px;
+  margin-bottom: 20px;
+  color: white;
+  margin-top: 20px;
+
+}
+
+.footer-list h3 {
+    color: white;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 1.235;
+    letter-spacing: 0.00735em;
+    margin-top: 20px;
+
+}
+.footer-list ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 50px;
+  color: white;
+
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 20px;
+
+
+}
+.footer-section1 img{
+    height: 60px;
+    width: 60px;
+    padding-left: 15px;
+    margin-top: 20px;
+
+}
+
+.footer-section1 p{
+    font-size: 13px;
+    margin-top: 50px;
+    color: white;
+
+   
+}
+
+@media (max-width: 768px) {
+    .footer-section,
+    .footer-list,
+    .footer-section1 {
+      flex: 1 0 100%;
+      max-width: 100%;
+    }
+    .social-icons img {
+      margin-right: 5px;
+    }
+  }
+
+
